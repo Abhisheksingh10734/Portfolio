@@ -1,0 +1,45 @@
+@media only screen and (max-width: 799px) and (min-width: 600px) {
+    .nav-head{
+      margin-left: -115px;
+    }
+  
+    .nav-logo{
+      margin-right: -115px;
+    }
+    
+    .nav-logo img{
+      width: 30px;
+    }
+  
+    /* #INTRO SECTION STYLING */
+  
+    .left-intro{
+      margin-left: 120px;
+    }
+  
+  .left-intro h1{
+    font-size: 2.8em;
+    line-height: 50px;
+  }
+  
+  .right-intro{
+    margin-right: 91px;
+  }
+  
+  /* About section styling */
+  .middle p {
+    font-size: 70%;
+  }
+  
+  .skill {
+    padding-top: 30px;
+  }
+  
+  .skill h3 {
+    font-size: 1.6em;
+  }
+
+  #work {
+    margin-top: 60px;
+  }
+  }
