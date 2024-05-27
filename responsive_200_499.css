@@ -1,0 +1,188 @@
+@media only screen and (max-width: 499px) and (min-width: 200px) {
+  .sidebar {
+    display: block;
+    position: fixed;
+    top: 0;
+    right: -200px;
+    height: 100vh;
+    width: 50vw;
+    background: rgba(255, 255, 255, 1);
+    -webkit-backdrop-filter: blur(1px);
+    backdrop-filter: blur(1px);
+  }
+
+  .sidebar-open {
+    right: 0;
+    transition: all ease 0.5s;
+  }
+
+  .sidebar-close {
+    right: -200px;
+    transition: all ease 0.5s;
+  }
+
+  .sidebar img {
+    cursor: auto;
+    width: 20px;
+  }
+
+  .sidebar-close-btn {
+    position: fixed;
+    right: 30px;
+    top: 30px;
+  }
+
+  .sidebar-links {
+    display: flex;
+    justify-content: center;
+  }
+
+  .sidebar-list-item + .sidebar-list-item {
+    margin-top: 50px;
+  }
+
+  .sidebar-list-item {
+    margin-top: 100px;
+    font-size: 20px;
+    letter-spacing: 2px;
+    font-weight: 600;
+    color: #000000;
+  }
+
+  .sidebar-list-item:hover {
+    color: #9cb9e8;
+    text-decoration: underline;
+  }
+
+  .nav-head {
+    margin-left: -50px;
+    font-size: 15px;
+  }
+
+  .nav-links ul {
+    display: none;
+  }
+
+  .nav-logo {
+    display: flex;
+    margin-right: -50px;
+  }
+
+  .nav-logo img:nth-child(2) {
+    display: block;
+  }
+
+  .nav-logo img {
+    width: 7.5vw;
+    cursor: pointer;
+  }
+
+  img + img {
+    margin-left: 20px;
+  }
+
+  /* #INTRO SECTION STYLING */
+
+  #intro {
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 75px;
+  }
+
+  .left-intro {
+    width: 100%;
+  }
+
+  .left-intro h5 {
+    font-size: 15px;
+  }
+
+  .left-intro h1 {
+    font-size: 3em;
+    line-height: 62px;
+  }
+
+  .right-intro {
+    width: 50%;
+    margin-right: 0px;
+    margin-top: 50px;
+  }
+
+  .right-intro img {
+    width: 100%;
+  }
+
+  /* About section styling */
+  #about {
+    margin-top: 70px;
+    height: 80vh;
+    grid-template-rows: 27% 30% auto;
+  }
+
+  .top {
+    padding-left: 20px;
+  }
+
+  .top h2 {
+    font-size: 12vw;
+  }
+
+  .line {
+    width: 50vw;
+  }
+
+  .middle {
+    padding: 0 20px;
+  }
+
+  .middle p {
+    font-size: 80%;
+  }
+
+  .bottom {
+    padding-left: 30%;
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+  }
+
+  .skill {
+    padding-top: 0px;
+  }
+
+  .skill h3 {
+    font-size: 2em;
+  }
+
+  .skill p {
+    font-size: 12px;
+  }
+
+  .skill-1-underline {
+    width: 127px;
+  }
+
+  .skill-2-underline {
+    width: 111px;
+  }
+
+  .skill-3-underline {
+    width: 131px;
+  }
+
+  #work {
+    margin-top: 30px;
+    height: 80vh;
+  }
+
+  .work-line {
+    width: 55vw;
+  }
+
+  .work-bottom {
+    margin-top: -20px;
+  }
+
+  .work-underline {
+    width: 57px;
+  }
+}

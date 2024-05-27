@@ -61,12 +61,14 @@ nav{
   cursor: pointer;
 }
 
+.nav-logo img:nth-child(2) {
+  display: none;
+}
+
 .nav-logo img{
   width: 2.5vw;
   height: auto;
 }
-
-
 
 /* #INTRO SECTION STYLING */
 
@@ -156,7 +158,6 @@ nav{
   display: grid;
   grid-template-columns: repeat(3, 1fr);
 }
-
 
 .skill {
   padding-top: 50px;
